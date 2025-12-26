@@ -1,0 +1,241 @@
+[gd_scene load_steps=21 format=3 uid="uid://dl0nb1cckn6it"]
+
+[ext_resource type="Script" uid="uid://2hdcd1hies0d" path="res://scenes/main_menu.gd" id="1_bqqt6"]
+[ext_resource type="Texture2D" uid="uid://csxwygqmrlcqp" path="res://graphics/alvaro-montoro--a37hQCISoQ-unsplash.png" id="1_l6cm7"]
+[ext_resource type="FontFile" uid="uid://dk4373b5qksnk" path="res://fonts/caustenround-extrabold.otf" id="2_ekxnf"]
+[ext_resource type="Theme" uid="uid://qygxv3kpnkj7" path="res://themes/button_theme.tres" id="4_rtw2f"]
+[ext_resource type="AudioStream" uid="uid://csnoqmv4u4u31" path="res://sounds/Jammin Bread.mp3" id="4_wu84c"]
+[ext_resource type="Texture2D" uid="uid://4j8hucduk72o" path="res://graphics/grabber/GrabberAtlas.png" id="5_8ln24"]
+[ext_resource type="Script" uid="uid://cex3b5hge7jfa" path="res://scenes/audio_control.gd" id="7_oa1go"]
+[ext_resource type="Script" uid="uid://cnngu12tglkj8" path="res://scenes/fullscreen_control.gd" id="8_tbmy8"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_l6cm7"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rtw2f"]
+atlas = ExtResource("5_8ln24")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_oa1go"]
+load_path = "res://.godot/imported/GrabberAtlas.png-c36e61c6f30430400d8f25a8cb890f74.ctex"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tbmy8"]
+atlas = SubResource("CompressedTexture2D_oa1go")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_jk1qb"]
+load_path = "res://.godot/imported/GrabberAtlas.png-c36e61c6f30430400d8f25a8cb890f74.ctex"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5dd4i"]
+atlas = SubResource("CompressedTexture2D_jk1qb")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_lgwnu"]
+load_path = "res://.godot/imported/GrabberAtlas.png-c36e61c6f30430400d8f25a8cb890f74.ctex"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_flqon"]
+atlas = SubResource("CompressedTexture2D_lgwnu")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rcqid"]
+corner_radius_top_left = 10
+corner_radius_bottom_left = 10
+expand_margin_top = 10.0
+expand_margin_bottom = 10.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8ln24"]
+corner_radius_top_left = 10
+corner_radius_bottom_left = 10
+expand_margin_top = 10.0
+expand_margin_bottom = 10.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rtw2f"]
+bg_color = Color(0, 0, 0, 0.27450982)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+expand_margin_top = 10.0
+expand_margin_bottom = 10.0
+
+[sub_resource type="Theme" id="Theme_wu84c"]
+HSlider/icons/grabber = SubResource("AtlasTexture_rtw2f")
+HSlider/icons/grabber_disabled = SubResource("AtlasTexture_tbmy8")
+HSlider/icons/grabber_highlight = SubResource("AtlasTexture_5dd4i")
+HSlider/icons/tick = SubResource("AtlasTexture_flqon")
+HSlider/styles/grabber_area = SubResource("StyleBoxFlat_rcqid")
+HSlider/styles/grabber_area_highlight = SubResource("StyleBoxFlat_8ln24")
+HSlider/styles/slider = SubResource("StyleBoxFlat_rtw2f")
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_bqqt6")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_wu84c")
+autoplay = true
+bus = &"Music"
+
+[node name="Panel" type="Panel" parent="."]
+clip_children = 2
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_l6cm7")
+metadata/_edit_group_ = true
+
+[node name="TextureRect" type="TextureRect" parent="Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -123.0
+offset_top = -678.0
+offset_right = 795.0
+offset_bottom = 87.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_l6cm7")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="MainButtons" type="VBoxContainer" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -169.0
+offset_top = -88.0
+offset_right = 169.0
+offset_bottom = 150.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 9
+metadata/_edit_group_ = true
+
+[node name="StartButton" type="Button" parent="MainButtons"]
+layout_mode = 2
+size_flags_vertical = 3
+theme = ExtResource("4_rtw2f")
+theme_override_font_sizes/font_size = 36
+text = "Start game"
+
+[node name="OptionButton" type="Button" parent="MainButtons"]
+layout_mode = 2
+size_flags_vertical = 3
+theme = ExtResource("4_rtw2f")
+theme_override_font_sizes/font_size = 36
+text = "Options"
+
+[node name="ExitButton" type="Button" parent="MainButtons"]
+layout_mode = 2
+size_flags_vertical = 3
+theme = ExtResource("4_rtw2f")
+theme_override_font_sizes/font_size = 36
+text = "Exit"
+
+[node name="Title" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -290.0
+offset_top = -201.0
+offset_right = 290.0
+offset_bottom = -137.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/outline_size = 20
+theme_override_fonts/font = ExtResource("2_ekxnf")
+theme_override_font_sizes/font_size = 66
+text = "Walk Test Simulator"
+
+[node name="Options" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -251.0
+offset_top = -122.0
+offset_right = 251.0
+offset_bottom = 272.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="Options"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 64.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 36
+text = "Options"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="BackButton" type="Button" parent="Options"]
+layout_mode = 0
+offset_left = 82.0
+offset_top = 296.0
+offset_right = 420.0
+offset_bottom = 366.0
+size_flags_vertical = 3
+theme = ExtResource("4_rtw2f")
+text = "Back"
+
+[node name="AudioControl" type="HSlider" parent="Options"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -164.0
+offset_top = -89.0
+offset_right = 164.0
+offset_bottom = -35.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_wu84c")
+max_value = 1.0
+step = 0.025
+value = 1.0
+script = ExtResource("7_oa1go")
+audio_bus_name = "Music"
+
+[node name="FullscreenControl" type="CheckButton" parent="Options"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -71.0
+offset_top = -22.0
+offset_right = 71.0
+offset_bottom = 22.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Fullscreen"
+script = ExtResource("8_tbmy8")
+
+[connection signal="pressed" from="MainButtons/StartButton" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="MainButtons/OptionButton" to="." method="_on_option_button_pressed"]
+[connection signal="pressed" from="MainButtons/ExitButton" to="." method="_on_exit_button_pressed"]
+[connection signal="pressed" from="Options/BackButton" to="." method="_on_back_button_pressed"]
+[connection signal="value_changed" from="Options/AudioControl" to="Options/AudioControl" method="_on_value_changed"]
+[connection signal="toggled" from="Options/FullscreenControl" to="Options/FullscreenControl" method="_on_toggled"]

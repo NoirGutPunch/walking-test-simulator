@@ -1,0 +1,38 @@
+[gd_resource type="Theme" load_steps=6 format=3 uid="uid://qygxv3kpnkj7"]
+
+[ext_resource type="FontFile" uid="uid://c3mrp7yhnbbsi" path="res://fonts/caustenround-medium.otf" id="1_qnv5y"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_oa1go"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tbmy8"]
+bg_color = Color(0.8661112, 0.86611134, 0.86611134, 1)
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jk1qb"]
+bg_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5dd4i"]
+bg_color = Color(0.60392326, 0.60392326, 0.6039232, 1)
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+
+[resource]
+Button/colors/font_color = Color(0, 0, 0, 1)
+Button/colors/font_focus_color = Color(0, 0, 0, 1)
+Button/colors/font_hover_color = Color(0, 0, 0, 1)
+Button/colors/font_pressed_color = Color(0, 0, 0, 1)
+Button/font_sizes/font_size = 36
+Button/fonts/font = ExtResource("1_qnv5y")
+Button/styles/focus = SubResource("StyleBoxEmpty_oa1go")
+Button/styles/hover = SubResource("StyleBoxFlat_tbmy8")
+Button/styles/normal = SubResource("StyleBoxFlat_jk1qb")
+Button/styles/pressed = SubResource("StyleBoxFlat_5dd4i")

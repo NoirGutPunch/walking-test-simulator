@@ -4,12 +4,21 @@
 [ext_resource type="Texture2D" uid="uid://csxwygqmrlcqp" path="res://graphics/alvaro-montoro--a37hQCISoQ-unsplash.png" id="1_l6cm7"]
 [ext_resource type="FontFile" uid="uid://dk4373b5qksnk" path="res://fonts/caustenround-extrabold.otf" id="2_ekxnf"]
 [ext_resource type="Theme" uid="uid://qygxv3kpnkj7" path="res://themes/button_theme.tres" id="4_rtw2f"]
-[ext_resource type="AudioStream" uid="uid://csnoqmv4u4u31" path="res://sounds/Jammin Bread.mp3" id="4_wu84c"]
 [ext_resource type="Texture2D" uid="uid://4j8hucduk72o" path="res://graphics/grabber/GrabberAtlas.png" id="5_8ln24"]
-[ext_resource type="Script" uid="uid://cex3b5hge7jfa" path="res://scenes/audio_control.gd" id="7_oa1go"]
-[ext_resource type="Script" uid="uid://cnngu12tglkj8" path="res://scenes/fullscreen_control.gd" id="8_tbmy8"]
+[ext_resource type="FontFile" uid="uid://c3mrp7yhnbbsi" path="res://fonts/caustenround-medium.otf" id="5_rtw2f"]
+[ext_resource type="Script" uid="uid://8fscj135pi26" path="res://scenes/options.gd" id="6_jk1qb"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_l6cm7"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jk1qb"]
+bg_color = Color(0.35406289, 0.35406289, 0.35406286, 1)
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+shadow_color = Color(0, 0, 0, 0.2)
+shadow_size = 2
+shadow_offset = Vector2(0, 2)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_rtw2f"]
 atlas = ExtResource("5_8ln24")
@@ -74,11 +83,6 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_bqqt6")
-
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("4_wu84c")
-autoplay = true
-bus = &"Music"
 
 [node name="Panel" type="Panel" parent="."]
 clip_children = 2
@@ -175,13 +179,18 @@ offset_right = 251.0
 offset_bottom = 272.0
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_jk1qb")
+script = ExtResource("6_jk1qb")
+audio_bus_name = "Music"
 
 [node name="Label" type="Label" parent="Options"]
 layout_mode = 1
 anchors_preset = 10
 anchor_right = 1.0
-offset_bottom = 64.0
+offset_top = 22.0
+offset_bottom = 86.0
 grow_horizontal = 2
+theme_override_fonts/font = ExtResource("5_rtw2f")
 theme_override_font_sizes/font_size = 36
 text = "Options"
 horizontal_alignment = 1
@@ -197,45 +206,62 @@ size_flags_vertical = 3
 theme = ExtResource("4_rtw2f")
 text = "Back"
 
-[node name="AudioControl" type="HSlider" parent="Options"]
+[node name="VBoxContainer" type="VBoxContainer" parent="Options"]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -164.0
-offset_top = -89.0
-offset_right = 164.0
-offset_bottom = -35.0
+offset_left = -161.5
+offset_top = -88.0
+offset_right = 161.5
+offset_bottom = 58.0
 grow_horizontal = 2
 grow_vertical = 2
+alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Options/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 15
+alignment = 1
+metadata/_edit_group_ = true
+
+[node name="Music" type="Label" parent="Options/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("5_rtw2f")
+theme_override_font_sizes/font_size = 26
+text = "Sound Master"
+vertical_alignment = 1
+
+[node name="AudioControl" type="HSlider" parent="Options/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
 theme = SubResource("Theme_wu84c")
 max_value = 1.0
 step = 0.025
-value = 1.0
-script = ExtResource("7_oa1go")
-audio_bus_name = "Music"
+value = 0.2
 
-[node name="FullscreenControl" type="CheckButton" parent="Options"]
-layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -71.0
-offset_top = -22.0
-offset_right = 71.0
-offset_bottom = 22.0
-grow_horizontal = 2
-grow_vertical = 2
+[node name="FullscreenControl" type="CheckButton" parent="Options/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("5_rtw2f")
+theme_override_font_sizes/font_size = 26
 text = "Fullscreen"
-script = ExtResource("8_tbmy8")
+
+[node name="MusicControl" type="CheckButton" parent="Options/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("5_rtw2f")
+theme_override_font_sizes/font_size = 26
+button_pressed = true
+text = "Music"
 
 [connection signal="pressed" from="MainButtons/StartButton" to="." method="_on_start_button_pressed"]
 [connection signal="pressed" from="MainButtons/OptionButton" to="." method="_on_option_button_pressed"]
 [connection signal="pressed" from="MainButtons/ExitButton" to="." method="_on_exit_button_pressed"]
 [connection signal="pressed" from="Options/BackButton" to="." method="_on_back_button_pressed"]
-[connection signal="value_changed" from="Options/AudioControl" to="Options/AudioControl" method="_on_value_changed"]
-[connection signal="toggled" from="Options/FullscreenControl" to="Options/FullscreenControl" method="_on_toggled"]
+[connection signal="value_changed" from="Options/VBoxContainer/HBoxContainer/AudioControl" to="Options" method="_on_audio_control_value_changed"]
+[connection signal="toggled" from="Options/VBoxContainer/FullscreenControl" to="Options" method="_on_fullscreen_control_toggled"]
+[connection signal="toggled" from="Options/VBoxContainer/MusicControl" to="Options" method="_on_music_control_toggled"]

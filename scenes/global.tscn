@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dd7iolu01n3b0"]
+
+[ext_resource type="AudioStream" uid="uid://csnoqmv4u4u31" path="res://sounds/Jammin Bread.mp3" id="1_4pk28"]
+[ext_resource type="Script" uid="uid://fry7li6rot71" path="res://scenes/global.gd" id="1_nmxvb"]
+
+[node name="Global" type="Node"]
+script = ExtResource("1_nmxvb")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("1_4pk28")
+autoplay = true
+bus = &"Music"
+parameters/looping = true

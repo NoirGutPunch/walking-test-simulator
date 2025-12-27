@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dhraku0hd1ntf"
-path="res://.godot/imported/Idle_Side-Sheet.png-1a384f4f6350ea2171090e421b0b9127.ctex"
+uid="uid://c5xuotbaiumb8"
+path="res://.godot/imported/Floors.png-eddda093df60d30d65cf0225fd06ce33.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://graphics/sprite/Idle_Base/Idle_Side-Sheet.png"
-dest_files=["res://.godot/imported/Idle_Side-Sheet.png-1a384f4f6350ea2171090e421b0b9127.ctex"]
+source_file="res://graphics/tilesets/structures/Floors.png"
+dest_files=["res://.godot/imported/Floors.png-eddda093df60d30d65cf0225fd06ce33.ctex"]
 
 [params]
 

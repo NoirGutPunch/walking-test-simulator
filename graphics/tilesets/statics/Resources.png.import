@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bptpxvmp74cag"
-path="res://.godot/imported/Walk_Down-Sheet.png-869665c63e160b903583476af17ff583.ctex"
+uid="uid://dc4qfj28iiyw6"
+path="res://.godot/imported/Resources.png-aa8c55c64e1487e2b0dfbb349b74b9c4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://graphics/sprite/Walk_Base/Walk_Down-Sheet.png"
-dest_files=["res://.godot/imported/Walk_Down-Sheet.png-869665c63e160b903583476af17ff583.ctex"]
+source_file="res://graphics/tilesets/statics/Resources.png"
+dest_files=["res://.godot/imported/Resources.png-aa8c55c64e1487e2b0dfbb349b74b9c4.ctex"]
 
 [params]
 

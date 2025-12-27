@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b2aoriyd50n0i"
-path="res://.godot/imported/sprite.png-37820f571c2103557af64944fb6fdbc4.ctex"
+uid="uid://dv7glehx1m48l"
+path="res://.godot/imported/Roofs.png-ede786d9890955ebd69920c9f384cb50.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://graphics/sprite/sprite.png"
-dest_files=["res://.godot/imported/sprite.png-37820f571c2103557af64944fb6fdbc4.ctex"]
+source_file="res://graphics/tilesets/structures/Roofs.png"
+dest_files=["res://.godot/imported/Roofs.png-ede786d9890955ebd69920c9f384cb50.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bsfh4r0thoqlo"
-path="res://.godot/imported/Run_Side-Sheet.png-fd7866c74324904d85ddf4fbda59023a.ctex"
+uid="uid://c456lqk6gi50e"
+path="res://.godot/imported/Farm.png-8ee56614f31d606c17ac82b8ef891523.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://graphics/sprite/Run_Base/Run_Side-Sheet.png"
-dest_files=["res://.godot/imported/Run_Side-Sheet.png-fd7866c74324904d85ddf4fbda59023a.ctex"]
+source_file="res://graphics/tilesets/statics/Farm.png"
+dest_files=["res://.godot/imported/Farm.png-8ee56614f31d606c17ac82b8ef891523.ctex"]
 
 [params]
 

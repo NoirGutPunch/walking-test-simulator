@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://daaufhlhg7u3d"
-path="res://.godot/imported/Walk_Up-Sheet.png-de87924fcd6c1c53912fc5ba96450f97.ctex"
+uid="uid://ecktjmbi1ocm"
+path="res://.godot/imported/Rocks.png-8f6ffd15b07b27372012b0a09688d046.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://graphics/sprite/Walk_Base/Walk_Up-Sheet.png"
-dest_files=["res://.godot/imported/Walk_Up-Sheet.png-de87924fcd6c1c53912fc5ba96450f97.ctex"]
+source_file="res://graphics/tilesets/statics/Rocks.png"
+dest_files=["res://.godot/imported/Rocks.png-8f6ffd15b07b27372012b0a09688d046.ctex"]
 
 [params]
 

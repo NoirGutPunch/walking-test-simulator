@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bkaln3v6d2puj"
-path="res://.godot/imported/Idle_Up-Sheet.png-d2f0c7bc8e45439d7685c7cc44dbf82b.ctex"
+uid="uid://c3n4k7kuwtioo"
+path="res://.godot/imported/Floors_Tiles.png-126eab2dfd24041e6332bef722f01a76.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://graphics/sprite/Idle_Base/Idle_Up-Sheet.png"
-dest_files=["res://.godot/imported/Idle_Up-Sheet.png-d2f0c7bc8e45439d7685c7cc44dbf82b.ctex"]
+source_file="res://graphics/tilesets/environments/Floors_Tiles.png"
+dest_files=["res://.godot/imported/Floors_Tiles.png-126eab2dfd24041e6332bef722f01a76.ctex"]
 
 [params]
 

@@ -20,7 +20,7 @@ shadow_color = Color(0, 0, 0, 0.2)
 shadow_size = 2
 shadow_offset = Vector2(0, 2)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_rtw2f"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_oa1go"]
 atlas = ExtResource("5_8ln24")
 region = Rect2(64, 0, 32, 32)
 
@@ -34,30 +34,30 @@ region = Rect2(32, 0, 32, 32)
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_jk1qb"]
 load_path = "res://.godot/imported/GrabberAtlas.png-c36e61c6f30430400d8f25a8cb890f74.ctex"
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_5dd4i"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_jk1qb"]
 atlas = SubResource("CompressedTexture2D_jk1qb")
 region = Rect2(96, 0, 32, 32)
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_lgwnu"]
 load_path = "res://.godot/imported/GrabberAtlas.png-c36e61c6f30430400d8f25a8cb890f74.ctex"
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_flqon"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_5dd4i"]
 atlas = SubResource("CompressedTexture2D_lgwnu")
 region = Rect2(0, 0, 32, 32)
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lgwnu"]
+corner_radius_top_left = 10
+corner_radius_bottom_left = 10
+expand_margin_top = 10.0
+expand_margin_bottom = 10.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_flqon"]
+corner_radius_top_left = 10
+corner_radius_bottom_left = 10
+expand_margin_top = 10.0
+expand_margin_bottom = 10.0
+
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rcqid"]
-corner_radius_top_left = 10
-corner_radius_bottom_left = 10
-expand_margin_top = 10.0
-expand_margin_bottom = 10.0
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8ln24"]
-corner_radius_top_left = 10
-corner_radius_bottom_left = 10
-expand_margin_top = 10.0
-expand_margin_bottom = 10.0
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rtw2f"]
 bg_color = Color(0, 0, 0, 0.27450982)
 corner_radius_top_left = 10
 corner_radius_top_right = 10
@@ -67,13 +67,13 @@ expand_margin_top = 10.0
 expand_margin_bottom = 10.0
 
 [sub_resource type="Theme" id="Theme_wu84c"]
-HSlider/icons/grabber = SubResource("AtlasTexture_rtw2f")
+HSlider/icons/grabber = SubResource("AtlasTexture_oa1go")
 HSlider/icons/grabber_disabled = SubResource("AtlasTexture_tbmy8")
-HSlider/icons/grabber_highlight = SubResource("AtlasTexture_5dd4i")
-HSlider/icons/tick = SubResource("AtlasTexture_flqon")
-HSlider/styles/grabber_area = SubResource("StyleBoxFlat_rcqid")
-HSlider/styles/grabber_area_highlight = SubResource("StyleBoxFlat_8ln24")
-HSlider/styles/slider = SubResource("StyleBoxFlat_rtw2f")
+HSlider/icons/grabber_highlight = SubResource("AtlasTexture_jk1qb")
+HSlider/icons/tick = SubResource("AtlasTexture_5dd4i")
+HSlider/styles/grabber_area = SubResource("StyleBoxFlat_lgwnu")
+HSlider/styles/grabber_area_highlight = SubResource("StyleBoxFlat_flqon")
+HSlider/styles/slider = SubResource("StyleBoxFlat_rcqid")
 
 [node name="MainMenu" type="Control"]
 layout_mode = 3

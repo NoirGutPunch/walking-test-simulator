@@ -1,4 +1,4 @@
-[gd_scene load_steps=37 format=4 uid="uid://8eei7wuopl36"]
+[gd_scene load_steps=41 format=4 uid="uid://8eei7wuopl36"]
 
 [ext_resource type="Script" uid="uid://bmu6cdug0yxr5" path="res://scenes/level_1.gd" id="1_014kd"]
 [ext_resource type="Texture2D" uid="uid://c456lqk6gi50e" path="res://graphics/tilesets/statics/Farm.png" id="4_2os1m"]
@@ -700,9 +700,13 @@ texture = ExtResource("5_go7sj")
 3:3/0 = 0
 4:3/0 = 0
 46:3/0 = 0
+46:3/0/y_sort_origin = -3
 47:3/0 = 0
+47:3/0/y_sort_origin = -3
 48:3/0 = 0
+48:3/0/y_sort_origin = -3
 49:3/0 = 0
+49:3/0/y_sort_origin = -3
 0:4/0 = 0
 1:4/0 = 0
 2:4/0 = 0
@@ -715,6 +719,7 @@ texture = ExtResource("5_go7sj")
 4:5/0 = 0
 5:5/0 = 0
 48:5/0 = 0
+48:5/0/y_sort_origin = -3
 0:6/0 = 0
 1:6/0 = 0
 2:6/0 = 0
@@ -728,16 +733,22 @@ texture = ExtResource("5_go7sj")
 3:7/0 = 0
 4:7/0 = 0
 48:7/0 = 0
+48:7/0/y_sort_origin = -3
 49:7/0 = 0
+49:7/0/y_sort_origin = -3
 0:8/0 = 0
 1:8/0 = 0
 2:8/0 = 0
 3:8/0 = 0
 4:8/0 = 0
 46:8/0 = 0
+46:8/0/y_sort_origin = -3
 47:8/0 = 0
+47:8/0/y_sort_origin = -3
 48:8/0 = 0
+48:8/0/y_sort_origin = -3
 49:8/0 = 0
+49:8/0/y_sort_origin = -3
 0:9/0 = 0
 1:9/0 = 0
 2:9/0 = 0
@@ -746,7 +757,9 @@ texture = ExtResource("5_go7sj")
 46:9/0 = 0
 47:9/0 = 0
 48:9/0 = 0
+48:9/0/y_sort_origin = -3
 49:9/0 = 0
+49:9/0/y_sort_origin = -3
 0:10/0 = 0
 1:10/0 = 0
 2:10/0 = 0
@@ -1312,22 +1325,39 @@ texture = ExtResource("8_6dial")
 9:0/0/texture_origin = Vector2i(0, 4)
 9:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 15:0/0 = 0
+15:0/0/y_sort_origin = -4
 16:0/0 = 0
+16:0/0/y_sort_origin = -4
 17:0/0 = 0
+17:0/0/y_sort_origin = -4
 18:0/0 = 0
+18:0/0/y_sort_origin = -4
 19:0/0 = 0
+19:0/0/y_sort_origin = -4
 20:0/0 = 0
+20:0/0/y_sort_origin = -2
 21:0/0 = 0
+21:0/0/y_sort_origin = -2
 22:0/0 = 0
+22:0/0/y_sort_origin = -2
 23:0/0 = 0
+23:0/0/y_sort_origin = -2
 24:0/0 = 0
+24:0/0/y_sort_origin = -2
 18:1/0 = 0
+18:1/0/y_sort_origin = -2
 19:1/0 = 0
+19:1/0/y_sort_origin = -2
 20:1/0 = 0
+20:1/0/y_sort_origin = -2
 21:1/0 = 0
+21:1/0/y_sort_origin = -2
 22:1/0 = 0
+22:1/0/y_sort_origin = -2
 23:1/0 = 0
+23:1/0/y_sort_origin = -2
 24:1/0 = 0
+24:1/0/y_sort_origin = -2
 0:2/size_in_atlas = Vector2i(3, 2)
 0:2/0 = 0
 0:2/0/texture_origin = Vector2i(0, 4)
@@ -1387,27 +1417,38 @@ texture = ExtResource("8_6dial")
 15:8/0 = 0
 0:9/0 = 0
 0:9/0/texture_origin = Vector2i(1, 4)
+0:9/0/y_sort_origin = -11
 1:9/0 = 0
 1:9/0/texture_origin = Vector2i(1, 4)
+1:9/0/y_sort_origin = -11
 2:9/0 = 0
 2:9/0/texture_origin = Vector2i(1, 4)
+2:9/0/y_sort_origin = -11
 3:9/0 = 0
 3:9/0/texture_origin = Vector2i(1, 4)
+3:9/0/y_sort_origin = -11
 4:9/0 = 0
 4:9/0/texture_origin = Vector2i(0, 7)
+4:9/0/y_sort_origin = -9
 5:9/size_in_atlas = Vector2i(2, 2)
 5:9/0 = 0
 5:9/0/texture_origin = Vector2i(1, 10)
+5:9/0/y_sort_origin = -6
 0:10/0 = 0
 0:10/0/texture_origin = Vector2i(1, 4)
+0:10/0/y_sort_origin = -11
 1:10/0 = 0
 1:10/0/texture_origin = Vector2i(1, 4)
+1:10/0/y_sort_origin = -11
 2:10/0 = 0
 2:10/0/texture_origin = Vector2i(1, 4)
+2:10/0/y_sort_origin = -11
 3:10/0 = 0
 3:10/0/texture_origin = Vector2i(1, 4)
+3:10/0/y_sort_origin = -11
 4:10/0 = 0
-4:10/0/texture_origin = Vector2i(1, 4)
+4:10/0/texture_origin = Vector2i(0, 4)
+4:10/0/y_sort_origin = -11
 7:10/size_in_atlas = Vector2i(1, 2)
 7:10/0 = 0
 8:10/size_in_atlas = Vector2i(1, 2)
@@ -1420,39 +1461,59 @@ texture = ExtResource("8_6dial")
 13:10/0 = 0
 0:11/0 = 0
 0:11/0/texture_origin = Vector2i(1, 4)
+0:11/0/y_sort_origin = -11
 1:11/0 = 0
 1:11/0/texture_origin = Vector2i(1, 4)
+1:11/0/y_sort_origin = -11
 2:11/0 = 0
 2:11/0/texture_origin = Vector2i(1, 4)
+2:11/0/y_sort_origin = -11
 3:11/0 = 0
 3:11/0/texture_origin = Vector2i(1, 4)
+3:11/0/y_sort_origin = -11
 4:11/0 = 0
+4:11/0/y_sort_origin = -6
 5:11/0 = 0
+5:11/0/y_sort_origin = -2
 6:11/0 = 0
+6:11/0/y_sort_origin = -2
 10:11/0 = 0
+10:11/0/y_sort_origin = -2
 11:11/0 = 0
+11:11/0/y_sort_origin = -2
 14:11/0 = 0
 0:12/0 = 0
 0:12/0/texture_origin = Vector2i(1, 4)
+0:12/0/y_sort_origin = -11
 1:12/0 = 0
 1:12/0/texture_origin = Vector2i(1, 4)
+1:12/0/y_sort_origin = -11
 2:12/0 = 0
 2:12/0/texture_origin = Vector2i(1, 4)
+2:12/0/y_sort_origin = -11
 3:12/0 = 0
 3:12/0/texture_origin = Vector2i(1, 4)
+3:12/0/y_sort_origin = -11
 4:12/0 = 0
+4:12/0/y_sort_origin = -3
 5:12/size_in_atlas = Vector2i(2, 2)
 5:12/0 = 0
+5:12/0/y_sort_origin = -6
 0:13/0 = 0
 0:13/0/texture_origin = Vector2i(1, 4)
+0:13/0/y_sort_origin = -11
 1:13/0 = 0
 1:13/0/texture_origin = Vector2i(1, 4)
+1:13/0/y_sort_origin = -11
 2:13/0 = 0
 2:13/0/texture_origin = Vector2i(1, 4)
+2:13/0/y_sort_origin = -11
 3:13/0 = 0
 3:13/0/texture_origin = Vector2i(1, 4)
+3:13/0/y_sort_origin = -11
 4:13/0 = 0
 4:13/0/texture_origin = Vector2i(1, 4)
+4:13/0/y_sort_origin = -11
 7:13/size_in_atlas = Vector2i(1, 2)
 7:13/0 = 0
 8:13/size_in_atlas = Vector2i(1, 2)
@@ -1461,38 +1522,58 @@ texture = ExtResource("8_6dial")
 9:13/0 = 0
 0:14/0 = 0
 0:14/0/texture_origin = Vector2i(1, 4)
+0:14/0/y_sort_origin = -11
 1:14/0 = 0
 1:14/0/texture_origin = Vector2i(1, 4)
+1:14/0/y_sort_origin = -11
 2:14/0 = 0
 2:14/0/texture_origin = Vector2i(1, 4)
+2:14/0/y_sort_origin = -11
 3:14/0 = 0
 3:14/0/texture_origin = Vector2i(1, 4)
+3:14/0/y_sort_origin = -11
 4:14/0 = 0
+4:14/0/y_sort_origin = -2
 5:14/0 = 0
+5:14/0/y_sort_origin = -2
 6:14/0 = 0
+6:14/0/y_sort_origin = -2
 10:14/0 = 0
+10:14/0/y_sort_origin = -2
 11:14/0 = 0
+11:14/0/y_sort_origin = -2
 0:15/0 = 0
 0:15/0/texture_origin = Vector2i(1, 4)
+0:15/0/y_sort_origin = -11
 1:15/0 = 0
 1:15/0/texture_origin = Vector2i(1, 4)
+1:15/0/y_sort_origin = -11
 2:15/0 = 0
 2:15/0/texture_origin = Vector2i(1, 4)
+2:15/0/y_sort_origin = -11
 3:15/0 = 0
 3:15/0/texture_origin = Vector2i(1, 4)
+3:15/0/y_sort_origin = -11
 4:15/0 = 0
+4:15/0/y_sort_origin = -3
 5:15/size_in_atlas = Vector2i(2, 2)
 5:15/0 = 0
+5:15/0/y_sort_origin = -6
 0:16/0 = 0
 0:16/0/texture_origin = Vector2i(1, 4)
+0:16/0/y_sort_origin = -11
 1:16/0 = 0
 1:16/0/texture_origin = Vector2i(1, 4)
+1:16/0/y_sort_origin = -11
 2:16/0 = 0
 2:16/0/texture_origin = Vector2i(1, 4)
+2:16/0/y_sort_origin = -11
 3:16/0 = 0
 3:16/0/texture_origin = Vector2i(1, 4)
+3:16/0/y_sort_origin = -11
 4:16/0 = 0
 4:16/0/texture_origin = Vector2i(1, 4)
+4:16/0/y_sort_origin = -11
 7:16/size_in_atlas = Vector2i(1, 2)
 7:16/0 = 0
 8:16/size_in_atlas = Vector2i(1, 2)
@@ -1501,18 +1582,27 @@ texture = ExtResource("8_6dial")
 9:16/0 = 0
 0:17/0 = 0
 0:17/0/texture_origin = Vector2i(1, 4)
+0:17/0/y_sort_origin = -11
 1:17/0 = 0
 1:17/0/texture_origin = Vector2i(1, 4)
+1:17/0/y_sort_origin = -11
 2:17/0 = 0
 2:17/0/texture_origin = Vector2i(1, 4)
+2:17/0/y_sort_origin = -11
 3:17/0 = 0
 3:17/0/texture_origin = Vector2i(1, 4)
+3:17/0/y_sort_origin = -11
 4:17/0 = 0
 4:17/0/texture_origin = Vector2i(1, 4)
+4:17/0/y_sort_origin = -2
 5:17/0 = 0
+5:17/0/y_sort_origin = -2
 6:17/0 = 0
+6:17/0/y_sort_origin = -2
 10:17/0 = 0
+10:17/0/y_sort_origin = -2
 11:17/0 = 0
+11:17/0/y_sort_origin = -2
 0:21/0 = 0
 1:21/0 = 0
 2:21/0 = 0
@@ -1599,6 +1689,18 @@ sources/4 = SubResource("TileSetAtlasSource_x2xxo")
 sources/5 = SubResource("TileSetAtlasSource_2cbcq")
 sources/6 = SubResource("TileSetAtlasSource_isj1j")
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2os1m"]
+size = Vector2(82, 2114)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_go7sj"]
+size = Vector2(1468, 79)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7gny6"]
+size = Vector2(1339.5, 121.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2aecg"]
+size = Vector2(1369, 77)
+
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1s4pk"]
 bg_color = Color(0.35406289, 0.35406289, 0.35406286, 1)
 corner_radius_top_left = 15
@@ -1609,44 +1711,44 @@ shadow_color = Color(0, 0, 0, 0.2)
 shadow_size = 2
 shadow_offset = Vector2(0, 2)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_rtw2f"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_7gny6"]
 atlas = ExtResource("13_7nomh")
 region = Rect2(64, 0, 32, 32)
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_x2xxo"]
 load_path = "res://.godot/imported/GrabberAtlas.png-c36e61c6f30430400d8f25a8cb890f74.ctex"
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_tbmy8"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_2aecg"]
 atlas = SubResource("CompressedTexture2D_x2xxo")
 region = Rect2(32, 0, 32, 32)
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_2cbcq"]
 load_path = "res://.godot/imported/GrabberAtlas.png-c36e61c6f30430400d8f25a8cb890f74.ctex"
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_5dd4i"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_6dial"]
 atlas = SubResource("CompressedTexture2D_2cbcq")
 region = Rect2(96, 0, 32, 32)
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_isj1j"]
 load_path = "res://.godot/imported/GrabberAtlas.png-c36e61c6f30430400d8f25a8cb890f74.ctex"
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_flqon"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_7nomh"]
 atlas = SubResource("CompressedTexture2D_isj1j")
 region = Rect2(0, 0, 32, 32)
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rcqid"]
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_x2xxo"]
 corner_radius_top_left = 10
 corner_radius_bottom_left = 10
 expand_margin_top = 10.0
 expand_margin_bottom = 10.0
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8ln24"]
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2cbcq"]
 corner_radius_top_left = 10
 corner_radius_bottom_left = 10
 expand_margin_top = 10.0
 expand_margin_bottom = 10.0
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rtw2f"]
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_isj1j"]
 bg_color = Color(0, 0, 0, 0.27450982)
 corner_radius_top_left = 10
 corner_radius_top_right = 10
@@ -1656,22 +1758,147 @@ expand_margin_top = 10.0
 expand_margin_bottom = 10.0
 
 [sub_resource type="Theme" id="Theme_so66j"]
-HSlider/icons/grabber = SubResource("AtlasTexture_rtw2f")
-HSlider/icons/grabber_disabled = SubResource("AtlasTexture_tbmy8")
-HSlider/icons/grabber_highlight = SubResource("AtlasTexture_5dd4i")
-HSlider/icons/tick = SubResource("AtlasTexture_flqon")
-HSlider/styles/grabber_area = SubResource("StyleBoxFlat_rcqid")
-HSlider/styles/grabber_area_highlight = SubResource("StyleBoxFlat_8ln24")
-HSlider/styles/slider = SubResource("StyleBoxFlat_rtw2f")
+HSlider/icons/grabber = SubResource("AtlasTexture_7gny6")
+HSlider/icons/grabber_disabled = SubResource("AtlasTexture_2aecg")
+HSlider/icons/grabber_highlight = SubResource("AtlasTexture_6dial")
+HSlider/icons/tick = SubResource("AtlasTexture_7nomh")
+HSlider/styles/grabber_area = SubResource("StyleBoxFlat_x2xxo")
+HSlider/styles/grabber_area_highlight = SubResource("StyleBoxFlat_2cbcq")
+HSlider/styles/slider = SubResource("StyleBoxFlat_isj1j")
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_2os1m"]
-size = Vector2(82, 2114)
+[sub_resource type="Animation" id="Animation_7gny6"]
+resource_name = "Cutscene_1"
+length = 5.0
+step = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Cutscene1/CanvasLayer/BlackBarTop:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.8, 4, 5),
+"transitions": PackedFloat32Array(1, 0.5, 0.5, 1),
+"update": 0,
+"values": [Vector2(0, -82), Vector2(0, 0), Vector2(0, 0), Vector2(0, -82)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Cutscene1/CanvasLayer/BlackBarBot:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.8, 4, 5),
+"transitions": PackedFloat32Array(1, 0.5, 0.5, 1),
+"update": 0,
+"values": [Vector2(0, 733), Vector2(0, 652), Vector2(0, 652), Vector2(0, 733)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Objects/Player:speed")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.8, 4.8, 5),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [400, 0, 0, 400]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Objects/Player/CutsceneCamera:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 1.5, 3.5, 5),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(-10, -1514), Vector2(-10, -1514), Vector2(0, 0)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Objects/Player/CutsceneCamera:enabled")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_go7sj"]
-size = Vector2(1468, 79)
+[sub_resource type="Animation" id="Animation_2aecg"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Cutscene1/CanvasLayer/BlackBarBot:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 652)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Cutscene1/CanvasLayer/BlackBarTop:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Objects/Player:speed")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [400]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Objects/Player/CutsceneCamera:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 0)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Objects/Player/CutsceneCamera:enabled")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_7gny6"]
-size = Vector2(1339.5, 121.5)
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_6dial"]
+_data = {
+&"Cutscene_1": SubResource("Animation_7gny6"),
+&"RESET": SubResource("Animation_2aecg")
+}
 
 [node name="Level1" type="Node2D"]
 script = ExtResource("1_014kd")
@@ -1699,6 +1926,12 @@ tile_map_data = PackedByteArray("AAAQAA4ABgAAAAAAAAARABEABgAAAAYAAAAAABEABgAAAAY
 tile_set = SubResource("TileSet_e3sih")
 metadata/_edit_lock_ = true
 
+[node name="StructuresBG" type="TileMapLayer" parent="BG"]
+scale = Vector2(4.55, 4.55)
+tile_map_data = PackedByteArray("AAAPAAkAAwAJACMAAAAIAAAAAwAFACUAAAA=")
+tile_set = SubResource("TileSet_e3sih")
+metadata/_edit_lock_ = true
+
 [node name="Objects" type="Node2D" parent="."]
 y_sort_enabled = true
 position = Vector2(646, 1033)
@@ -1707,124 +1940,18 @@ position = Vector2(646, 1033)
 y_sort_enabled = true
 position = Vector2(-646, -1033)
 scale = Vector2(4.55, 4.55)
-tile_map_data = PackedByteArray("AAAQAPj/BgAAAAYAAAARAPj/BgAAAAYAAAARAPn/BgAAAAYAAAAGAPb/BgAAAAYAAAABAPj/BgAAAAYAAAABAPb/BgAAAAYAAAD///f/BgAAAAYAAAD///n/BgADAAQAAAAAAPf/BgADAAQAAAAAAPj/BgADAAQAAAASAPf/BgADAAQAAAAPAPb/BgADAAQAAAARAPr/BgADAAQAAAAPAPn/BgADAAQAAAANAPf/BgADAAQAAAD///v/BgADAAYAAAAEAPb/BgADAAYAAAAGAPj/BgADAAYAAAALAPb/BgADAAYAAAAPAPf/BgADAAYAAAARAPb/BgADAAYAAAAOAPj/BgAGAAQAAAACAPf/BgAGAAQAAAD+//j/BgAGAAQAAAABAPn/BgAGAAQAAAABAPr/BgADAAYAAAADAPn/BgAAAAQAAAAEAPf/BgAAAAYAAAACAPX/BgAAAAYAAAAOAPb/BgAAAAYAAAAMAPb/BgAAAAIAAAANAPr/BgAAAAIAAAARAPz/BgAAAAIAAAADAPv/BgACAAkAAAAEAPj/BgACAAkAAAAEAPr/BgAFAAsAAAABAPv/BgAFAAsAAAAPAPv/BgAFAAsAAAAPAPr/BgAEAAwAAAAQAPv/BgAEAA0AAAAMAPj/BgAEABAAAAAHAA8ABgAFAA4AAAABAA4ABgACAA0AAAADAA4ABgABAA4AAAAMAAAABgALAAsAAAADAAkABgAEAAoAAAAOAP//BgAMAAQAAAAOAAAABgAMAAQAAAADAAAABgAMAAQAAAAKAAkAAwACAB8AAAAPAAQABgARAAAAAAAIAPr/BgARAAAAAAAOAPv/BgAXAAAAAAAOAA4ABgAEAAoAAAABAAAAAwAJABoAAAAQAAAAAwACAB8AAAARAAAAAwACAB8AAAAAAAkAAwACAB8AAAABAAkAAwACAB8AAAACAAkAAwADAB8AAAAJAAkAAwABACAAAAALAAkAAwADAB8AAAAHAPv/BQAGAAEAAAAJAPv/BQAIAAEAAAAFAPv/BQALAAEAAAAGAPv/BQAKAAEAAAAGAPz/BQAJAAMAAAAHAAkAAwACAB8AAAAIAAkAAwAAACAAAAAGAAkAAwABAB8AAAAAAA0AAwAMABoAAAABAA0AAwANABoAAAACAA0AAwAMABoAAAADAA0AAwAMABoAAAAEAA0AAwANABoAAAAFAA0AAwAMABoAAAALAA0AAwAMABoAAAAMAA0AAwAMABoAAAANAA0AAwANABoAAAAOAA0AAwAMABoAAAAPAA0AAwANABoAAAAQAA0AAwAMABoAAAARAA0AAwAOABoAAAAGAA0AAwAMABoAAAAHAA0AAwAOABoAAAAKAA0AAwALABoAAAAFAAQAAwAMABoAAAAGAAQAAwANABoAAAAHAAQAAwAMABoAAAAIAAQAAwAOABoAAAABAAQAAwALABoAAAACAAQAAwAMABoAAAADAAQAAwANABoAAAAEAAQAAwAMABoAAAAKAAQAAwAvAAQAAAAQAAQAAwAuAAYAAAANAAUAAwAwAAgAAAAPAAkAAwAJACMAAAAIAAAAAwAFACUAAAA=")
+tile_map_data = PackedByteArray("AAAQAPj/BgAAAAYAAAARAPj/BgAAAAYAAAARAPn/BgAAAAYAAAAGAPb/BgAAAAYAAAABAPj/BgAAAAYAAAABAPb/BgAAAAYAAAD///f/BgAAAAYAAAD///n/BgADAAQAAAAAAPf/BgADAAQAAAAAAPj/BgADAAQAAAASAPf/BgADAAQAAAAPAPb/BgADAAQAAAARAPr/BgADAAQAAAAPAPn/BgADAAQAAAANAPf/BgADAAQAAAD///v/BgADAAYAAAAEAPb/BgADAAYAAAAGAPj/BgADAAYAAAALAPb/BgADAAYAAAAPAPf/BgADAAYAAAARAPb/BgADAAYAAAAOAPj/BgAGAAQAAAACAPf/BgAGAAQAAAD+//j/BgAGAAQAAAABAPn/BgAGAAQAAAABAPr/BgADAAYAAAADAPn/BgAAAAQAAAAEAPf/BgAAAAYAAAACAPX/BgAAAAYAAAAOAPb/BgAAAAYAAAAMAPb/BgAAAAIAAAANAPr/BgAAAAIAAAARAPz/BgAAAAIAAAADAPv/BgACAAkAAAAEAPj/BgACAAkAAAAEAPr/BgAFAAsAAAABAPv/BgAFAAsAAAAPAPv/BgAFAAsAAAAPAPr/BgAEAAwAAAAQAPv/BgAEAA0AAAAMAPj/BgAEABAAAAAHAA8ABgAFAA4AAAABAA4ABgACAA0AAAADAA4ABgABAA4AAAAMAAAABgALAAsAAAADAAkABgAEAAoAAAAOAP//BgAMAAQAAAAOAAAABgAMAAQAAAADAAAABgAMAAQAAAAKAAkAAwACAB8AAAAPAAQABgARAAAAAAAIAPr/BgARAAAAAAAOAPv/BgAXAAAAAAAOAA4ABgAEAAoAAAABAAAAAwAJABoAAAAQAAAAAwACAB8AAAARAAAAAwACAB8AAAAAAAkAAwACAB8AAAABAAkAAwACAB8AAAACAAkAAwADAB8AAAAJAAkAAwABACAAAAALAAkAAwADAB8AAAAHAPv/BQAGAAEAAAAJAPv/BQAIAAEAAAAFAPv/BQALAAEAAAAGAPv/BQAKAAEAAAAGAPz/BQAJAAMAAAAHAAkAAwACAB8AAAAIAAkAAwAAACAAAAAGAAkAAwABAB8AAAAAAA0AAwAMABoAAAABAA0AAwANABoAAAACAA0AAwAMABoAAAADAA0AAwAMABoAAAAEAA0AAwANABoAAAAFAA0AAwAMABoAAAALAA0AAwAMABoAAAAMAA0AAwAMABoAAAANAA0AAwANABoAAAAOAA0AAwAMABoAAAAPAA0AAwANABoAAAAQAA0AAwAMABoAAAARAA0AAwAOABoAAAAGAA0AAwAMABoAAAAHAA0AAwAOABoAAAAKAA0AAwALABoAAAAFAAQAAwAMABoAAAAGAAQAAwANABoAAAAHAAQAAwAMABoAAAAIAAQAAwAOABoAAAABAAQAAwALABoAAAACAAQAAwAMABoAAAADAAQAAwANABoAAAAEAAQAAwAMABoAAAAKAAQAAwAvAAQAAAAQAAQAAwAuAAYAAAANAAUAAwAwAAgAAAA=")
 tile_set = SubResource("TileSet_e3sih")
 metadata/_edit_lock_ = true
 
 [node name="Player" parent="Objects" instance=ExtResource("6_fcfvj")]
-position = Vector2(10, 87)
+position = Vector2(9, 76)
 
-[node name="Options" type="Panel" parent="Objects/Player"]
-z_index = 2
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -251.0
-offset_top = -284.0
-offset_right = 251.0
-offset_bottom = 110.0
-grow_horizontal = 2
-grow_vertical = 2
-size_flags_horizontal = 4
-theme_override_styles/panel = SubResource("StyleBoxFlat_1s4pk")
-script = ExtResource("10_7gny6")
-audio_bus_name = "Music"
-
-[node name="Label" type="Label" parent="Objects/Player/Options"]
-layout_mode = 1
-anchors_preset = 10
-anchor_right = 1.0
-offset_top = 22.0
-offset_bottom = 86.0
-grow_horizontal = 2
-theme_override_fonts/font = ExtResource("11_2aecg")
-theme_override_font_sizes/font_size = 36
-text = "Options"
-horizontal_alignment = 1
-vertical_alignment = 1
-
-[node name="VBoxContainer2" type="VBoxContainer" parent="Objects/Player/Options"]
-layout_mode = 1
-anchors_preset = 7
-anchor_left = 0.5
-anchor_top = 1.0
-anchor_right = 0.5
-anchor_bottom = 1.0
-offset_left = -230.0
-offset_top = -168.0
-offset_right = 230.0
-offset_bottom = -25.0
-grow_horizontal = 2
-grow_vertical = 0
-theme_override_constants/separation = 10
-metadata/_edit_group_ = true
-
-[node name="BackToGameButton" type="Button" parent="Objects/Player/Options/VBoxContainer2"]
-layout_mode = 2
-size_flags_vertical = 3
-theme = ExtResource("12_6dial")
-text = "Back to game"
-
-[node name="BackToMenuButton" type="Button" parent="Objects/Player/Options/VBoxContainer2"]
-layout_mode = 2
-size_flags_vertical = 3
-theme = ExtResource("12_6dial")
-text = "Back to main menu"
-
-[node name="VBoxContainer" type="VBoxContainer" parent="Objects/Player/Options"]
-layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -161.5
-offset_top = -129.0
-offset_right = 161.5
-offset_bottom = 17.0
-grow_horizontal = 2
-grow_vertical = 2
-alignment = 1
-metadata/_edit_group_ = true
-
-[node name="HBoxContainer" type="HBoxContainer" parent="Objects/Player/Options/VBoxContainer"]
-layout_mode = 2
-theme_override_constants/separation = 15
-alignment = 1
-metadata/_edit_group_ = true
-
-[node name="Music" type="Label" parent="Objects/Player/Options/VBoxContainer/HBoxContainer"]
-layout_mode = 2
-theme_override_fonts/font = ExtResource("11_2aecg")
-theme_override_font_sizes/font_size = 26
-text = "Sound Master"
-vertical_alignment = 1
-
-[node name="AudioControl" type="HSlider" parent="Objects/Player/Options/VBoxContainer/HBoxContainer"]
-layout_mode = 2
-size_flags_horizontal = 3
-size_flags_vertical = 4
-theme = SubResource("Theme_so66j")
-max_value = 1.0
-step = 0.025
-value = 0.2
-
-[node name="FullscreenControl" type="CheckButton" parent="Objects/Player/Options/VBoxContainer"]
-layout_mode = 2
-theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_fonts/font = ExtResource("11_2aecg")
-theme_override_font_sizes/font_size = 26
-text = "Fullscreen"
-
-[node name="MusicControl" type="CheckButton" parent="Objects/Player/Options/VBoxContainer"]
-layout_mode = 2
-theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_fonts/font = ExtResource("11_2aecg")
-theme_override_font_sizes/font_size = 26
-button_pressed = true
-text = "Music"
+[node name="CutsceneCamera" type="Camera2D" parent="Objects/Player"]
+limit_left = 0
+limit_top = -655
+limit_right = 1311
+limit_bottom = 1383
 
 [node name="Walls" type="Node2D" parent="."]
 
@@ -1855,10 +1982,132 @@ collision_layer = 8
 position = Vector2(653.25, -604.75)
 shape = SubResource("RectangleShape2D_7gny6")
 
-[node name="Node" type="Node" parent="."]
+[node name="MiddleArea2D" type="Area2D" parent="Walls"]
 
-[node name="VehiculeTimer" type="Timer" parent="Node"]
-wait_time = 2.0
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/MiddleArea2D"]
+position = Vector2(652.5, 360.5)
+shape = SubResource("RectangleShape2D_2aecg")
+
+[node name="Other" type="Node" parent="."]
+
+[node name="OptionMenu" type="CanvasLayer" parent="Other"]
+
+[node name="Options" type="Panel" parent="Other/OptionMenu"]
+process_mode = 3
+visible = false
+z_index = 2
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -236.0
+offset_top = -190.0
+offset_right = 266.0
+offset_bottom = 204.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+theme_override_styles/panel = SubResource("StyleBoxFlat_1s4pk")
+script = ExtResource("10_7gny6")
+audio_bus_name = "Music"
+metadata/_edit_group_ = true
+
+[node name="Label" type="Label" parent="Other/OptionMenu/Options"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 22.0
+offset_bottom = 86.0
+grow_horizontal = 2
+theme_override_fonts/font = ExtResource("11_2aecg")
+theme_override_font_sizes/font_size = 36
+text = "Options"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="Other/OptionMenu/Options"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -230.0
+offset_top = -168.0
+offset_right = 230.0
+offset_bottom = -25.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/separation = 10
+metadata/_edit_group_ = true
+
+[node name="BackToGameButton" type="Button" parent="Other/OptionMenu/Options/VBoxContainer2"]
+layout_mode = 2
+size_flags_vertical = 3
+theme = ExtResource("12_6dial")
+text = "Back to game"
+
+[node name="BackToMenuButton" type="Button" parent="Other/OptionMenu/Options/VBoxContainer2"]
+layout_mode = 2
+size_flags_vertical = 3
+theme = ExtResource("12_6dial")
+text = "Back to main menu"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Other/OptionMenu/Options"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -161.5
+offset_top = -129.0
+offset_right = 161.5
+offset_bottom = 17.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+metadata/_edit_group_ = true
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Other/OptionMenu/Options/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 15
+alignment = 1
+metadata/_edit_group_ = true
+
+[node name="Music" type="Label" parent="Other/OptionMenu/Options/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("11_2aecg")
+theme_override_font_sizes/font_size = 26
+text = "Sound Master"
+vertical_alignment = 1
+
+[node name="AudioControl" type="HSlider" parent="Other/OptionMenu/Options/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+theme = SubResource("Theme_so66j")
+max_value = 1.0
+step = 0.025
+value = 0.2
+
+[node name="FullscreenControl" type="CheckButton" parent="Other/OptionMenu/Options/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("11_2aecg")
+theme_override_font_sizes/font_size = 26
+text = "Fullscreen"
+
+[node name="MusicControl" type="CheckButton" parent="Other/OptionMenu/Options/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("11_2aecg")
+theme_override_font_sizes/font_size = 26
+button_pressed = true
+text = "Music"
+
+[node name="VehiculeTimer" type="Timer" parent="Other"]
 autostart = true
 
 [node name="VehiculeStartPosition" type="Node2D" parent="."]
@@ -1875,10 +2124,35 @@ position = Vector2(-240, 474)
 [node name="LeftMarker2D2" type="Marker2D" parent="VehiculeStartPosition"]
 position = Vector2(-246, -166)
 
-[connection signal="pressed" from="Objects/Player/Options/VBoxContainer2/BackToGameButton" to="." method="_on_back_to_game_button_pressed"]
-[connection signal="pressed" from="Objects/Player/Options/VBoxContainer2/BackToMenuButton" to="." method="_on_back_to_menu_button_pressed"]
-[connection signal="value_changed" from="Objects/Player/Options/VBoxContainer/HBoxContainer/AudioControl" to="Objects/Player/Options" method="_on_audio_control_value_changed"]
-[connection signal="toggled" from="Objects/Player/Options/VBoxContainer/FullscreenControl" to="Objects/Player/Options" method="_on_fullscreen_control_toggled"]
-[connection signal="toggled" from="Objects/Player/Options/VBoxContainer/MusicControl" to="Objects/Player/Options" method="_on_music_control_toggled"]
+[node name="Cutscene1" type="Node2D" parent="."]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Cutscene1"]
+root_node = NodePath("../..")
+libraries = {
+&"": SubResource("AnimationLibrary_6dial")
+}
+autoplay = "Cutscene_1"
+
+[node name="CanvasLayer" type="CanvasLayer" parent="Cutscene1"]
+
+[node name="BlackBarTop" type="ColorRect" parent="Cutscene1/CanvasLayer"]
+offset_top = -82.0
+offset_right = 1343.0
+offset_bottom = -14.0
+color = Color(0, 0, 0, 1)
+
+[node name="BlackBarBot" type="ColorRect" parent="Cutscene1/CanvasLayer"]
+offset_top = 733.0
+offset_right = 1343.0
+offset_bottom = 801.0
+color = Color(0, 0, 0, 1)
+
 [connection signal="body_entered" from="Walls/FinishArea2D" to="." method="_on_finish_area_2d_body_entered"]
-[connection signal="timeout" from="Node/VehiculeTimer" to="." method="_on_vehicule_timer_timeout"]
+[connection signal="body_entered" from="Walls/MiddleArea2D" to="." method="_on_middle_area_2d_body_entered"]
+[connection signal="pressed" from="Other/OptionMenu/Options/VBoxContainer2/BackToGameButton" to="." method="_on_back_to_game_button_pressed"]
+[connection signal="pressed" from="Other/OptionMenu/Options/VBoxContainer2/BackToMenuButton" to="." method="_on_back_to_menu_button_pressed"]
+[connection signal="value_changed" from="Other/OptionMenu/Options/VBoxContainer/HBoxContainer/AudioControl" to="Other/OptionMenu/Options" method="_on_audio_control_value_changed"]
+[connection signal="toggled" from="Other/OptionMenu/Options/VBoxContainer/FullscreenControl" to="Other/OptionMenu/Options" method="_on_fullscreen_control_toggled"]
+[connection signal="toggled" from="Other/OptionMenu/Options/VBoxContainer/MusicControl" to="Other/OptionMenu/Options" method="_on_music_control_toggled"]
+[connection signal="timeout" from="Other/VehiculeTimer" to="." method="_on_vehicule_timer_timeout"]
+[connection signal="animation_finished" from="Cutscene1/AnimationPlayer" to="." method="_on_animation_player_animation_finished"]

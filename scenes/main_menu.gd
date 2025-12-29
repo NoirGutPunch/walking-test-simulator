@@ -6,6 +6,7 @@ extends Control
 func _ready() -> void:
 	main_buttons.visible = true
 	options.visible = false
+	global_file.has_seen_level1_cutscene1 = false
 
 func _on_start_button_pressed() -> void:
 	get_tree().change_scene_to_file("res://scenes/level_1.tscn")

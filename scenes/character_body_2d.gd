@@ -1,6 +1,7 @@
 extends CharacterBody2D
 
 @export var speed := 400
+@onready var camera_2d: Camera2D = $Camera2D
 
 # Current input direction (what keys are pressed right now)
 var direction := Vector2.ZERO
@@ -62,3 +63,6 @@ func play_idle_animation():
 	else:
 		# Idle facing up
 		$AnimatedSprite2D.play("idle_up")
+
+func cut_scene_triggerer():
+	pass

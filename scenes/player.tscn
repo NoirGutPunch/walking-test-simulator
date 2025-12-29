@@ -247,7 +247,7 @@ animations = [{
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_g2els"]
-radius = 16.03122
+radius = 21.023796
 
 [node name="Player" type="CharacterBody2D"]
 collision_mask = 6
@@ -258,9 +258,9 @@ y_sort_enabled = true
 scale = Vector2(4, 4)
 sprite_frames = SubResource("SpriteFrames_f1ej7")
 animation = &"idle_down"
+offset = Vector2(0, -3.88)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 14)
 shape = SubResource("CircleShape2D_g2els")
 
 [node name="Camera2D" type="Camera2D" parent="."]
@@ -269,5 +269,6 @@ limit_left = 0
 limit_top = -655
 limit_right = 1311
 limit_bottom = 1383
+limit_smoothed = true
 position_smoothing_enabled = true
 position_smoothing_speed = 3.0

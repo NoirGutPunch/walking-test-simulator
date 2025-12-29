@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://besdfyo3b8g0o"]
+
+[ext_resource type="Script" uid="uid://5u13082bufd5" path="res://scenes/vehicule_2.gd" id="1_v5k1p"]
+[ext_resource type="Texture2D" uid="uid://coknfyiy5o6al" path="res://graphics/sprite/vehicules/micro/Blue_MICRO_CLEAN_EAST_000.png" id="2_v5k1p"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rklsb"]
+size = Vector2(130, 70)
+
+[node name="Vehicule" type="Area2D"]
+collision_layer = 3
+script = ExtResource("1_v5k1p")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(4, 4)
+texture = ExtResource("2_v5k1p")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(7, 19)
+shape = SubResource("RectangleShape2D_rklsb")
